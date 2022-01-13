@@ -22,3 +22,4 @@ print(doubler(5))
 #exercise
 convert_fahrenheit=lambda degree_value:degree_value*(9/5)+32
 print(convert_fahrenheit(12))
+import data_compression as data_compress
