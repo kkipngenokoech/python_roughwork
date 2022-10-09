@@ -1,0 +1,8 @@
+interger1=2
+interger2=3
+#print(interger1+interger2)
+while interger2!=0:
+    carry=interger2&interger1
+    interger1=interger1^interger2
+    interger2=carry<<1
+print(interger1)
