@@ -24,7 +24,10 @@ def smallestPositive(array):
 
     # account for situation where smallest positive number is equal to maximum value
     print(smallestPositiveNumber)
-array = [1, 3, 6, 4, 1, 5, 2]
-negativeArray = [-1,-4,-7]
+array = [1, 3, 6, 4, 1, 2]
+negativeArray = [-1,-3]
+allArray = [1, 2, 3]
+
 smallestPositive(array)
 smallestPositive(negativeArray)
+#smallestPositive(allArray)
